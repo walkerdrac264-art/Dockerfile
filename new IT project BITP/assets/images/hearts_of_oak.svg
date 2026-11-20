@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <circle cx="80" cy="80" r="72" fill="#d97706" stroke="#b45309" stroke-width="4"/>
+  <circle cx="80" cy="80" r="64" fill="#1e3a8a"/>
+  <!-- Rainbow stripes: Red, Yellow, Blue -->
+  <path d="M 20 80 Q 80 40 140 80 L 140 92 Q 80 52 20 92 Z" fill="#ef4444"/>
+  <path d="M 20 92 Q 80 52 140 92 L 140 104 Q 80 64 20 104 Z" fill="#eab308"/>
+  <path d="M 20 104 Q 80 64 140 104 L 140 116 Q 80 76 20 116 Z" fill="#3b82f6"/>
+  <!-- Text -->
+  <text x="80" y="44" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="11" text-anchor="middle" letter-spacing="1">HEARTS OF OAK</text>
+  <text x="80" y="62" fill="#fbbf24" font-family="sans-serif" font-weight="bold" font-size="10" text-anchor="middle">1911</text>
+  <!-- Tree of Oak symbol -->
+  <polygon points="80,120 74,142 86,142" fill="#78350f"/>
+  <circle cx="80" cy="120" r="10" fill="#15803d"/>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="100%" height="auto" class="rounded shadow-sm">
+  <defs>
+    <linearGradient id="grassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Stadium Outer Shell -->
+  <rect x="10" y="10" width="580" height="400" rx="40" fill="#0b1e36" stroke="#1e3a8a" stroke-width="4"/>
+  <rect x="25" y="25" width="550" height="370" rx="30" fill="#0f2744"/>
+
+  <!-- NORTH TERRACE (ULTRAS) -->
+  <g class="stand-sector" data-stand="North Terrace" cursor="pointer">
+    <path d="M 120 40 L 480 40 L 450 90 L 150 90 Z" fill="#3b82f6" opacity="0.85" filter="url(#softShadow)"/>
+    <text x="300" y="65" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="13" text-anchor="middle">NORTH TERRACE (ULTRAS STAND) - GATE D</text>
+    <text x="300" y="82" fill="#bae6fd" font-family="sans-serif" font-size="10" text-anchor="middle">5,000 Capacity • Active Singing Section</text>
+  </g>
+
+  <!-- SOUTH STAND (FAMILY ENCLOSURE) -->
+  <g class="stand-sector" data-stand="Family Enclosure" cursor="pointer">
+    <path d="M 150 330 L 450 330 L 480 380 L 120 380 Z" fill="#10b981" opacity="0.85" filter="url(#softShadow)"/>
+    <text x="300" y="355" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="13" text-anchor="middle">RIVERSIDE FAMILY ENCLOSURE - GATE E</text>
+    <text x="300" y="372" fill="#d1fae5" font-family="sans-serif" font-size="10" text-anchor="middle">1,500 Capacity • Junior &amp; Family Wing</text>
+  </g>
+
+  <!-- WEST STAND (VIP & MAIN GRANDSTAND) -->
+  <g class="stand-sector" data-stand="VIP" cursor="pointer">
+    <!-- VIP Upper -->
+    <path d="M 40 100 L 120 100 L 120 160 L 40 160 Z" fill="#f59e0b" opacity="0.95" filter="url(#softShadow)"/>
+    <text x="80" y="130" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="11" text-anchor="middle">VIP BOX</text>
+    <text x="80" y="145" fill="#fef3c7" font-family="sans-serif" font-size="9" text-anchor="middle">GATE A</text>
+
+    <!-- Main Grandstand Lower -->
+    <path d="M 40 170 L 120 170 L 120 320 L 40 320 Z" fill="#2563eb" opacity="0.85" filter="url(#softShadow)"/>
+    <text x="80" y="240" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="12" text-anchor="middle" transform="rotate(-90, 80, 240)">MAIN GRANDSTAND - GATE B</text>
+  </g>
+
+  <!-- EAST STAND (POPULAR STAND) -->
+  <g class="stand-sector" data-stand="Popular Stand" cursor="pointer">
+    <path d="M 480 100 L 560 100 L 560 320 L 480 320 Z" fill="#0284c7" opacity="0.85" filter="url(#softShadow)"/>
+    <text x="520" y="210" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="12" text-anchor="middle" transform="rotate(90, 520, 210)">POPULAR STAND (EAST) - GATE C</text>
+    <text x="540" y="210" fill="#e0f2fe" font-family="sans-serif" font-size="9" text-anchor="middle" transform="rotate(90, 540, 210)">8,000 Capacity</text>
+  </g>
+
+  <!-- FOOTBALL PITCH (CENTER) -->
+  <g transform="translate(150, 110)">
+    <!-- Grass field -->
+    <rect x="0" y="0" width="300" height="200" rx="6" fill="url(#grassGrad)" stroke="#ffffff" stroke-width="2"/>
+    
+    <!-- Field stripes -->
+    <rect x="30" y="0" width="30" height="200" fill="#ffffff" opacity="0.06"/>
+    <rect x="90" y="0" width="30" height="200" fill="#ffffff" opacity="0.06"/>
+    <rect x="150" y="0" width="30" height="200" fill="#ffffff" opacity="0.06"/>
+    <rect x="210" y="0" width="30" height="200" fill="#ffffff" opacity="0.06"/>
+    <rect x="270" y="0" width="30" height="200" fill="#ffffff" opacity="0.06"/>
+
+    <!-- Halfway line -->
+    <line x1="150" y1="0" x2="150" y2="200" stroke="#ffffff" stroke-width="2"/>
+    <!-- Centre circle -->
+    <circle cx="150" cy="100" r="35" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="150" cy="100" r="3" fill="#ffffff"/>
+
+    <!-- North Goal Area (Top) -->
+    <rect x="100" y="0" width="100" height="40" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <rect x="125" y="0" width="50" height="15" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 125 40 A 25 25 0 0 0 175 40" fill="none" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- South Goal Area (Bottom) -->
+    <rect x="100" y="160" width="100" height="40" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <rect x="125" y="185" width="50" height="15" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 125 160 A 25 25 0 0 1 175 160" fill="none" stroke="#ffffff" stroke-width="2"/>
+
+    <!-- Center Pitch Watermark -->
+    <text x="150" y="105" fill="#ffffff" opacity="0.35" font-family="sans-serif" font-weight="900" font-size="14" text-anchor="middle">RIVERSIDE ARENA</text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+/**
+ * Print Stylesheet for Riverside FC Match Tickets
+ */
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+    margin: 0;
+    padding: 10mm;
+  }
+
+  /* Hide all UI elements not part of ticket pass */
+  .rfc-navbar,
+  .rfc-footer,
+  .no-print,
+  .btn,
+  .alert,
+  nav,
+  footer {
+    display: none !important;
+  }
+
+  .digital-ticket-pass {
+    border: 2px solid #000000 !important;
+    box-shadow: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin: 0 auto;
+  }
+
+  .ticket-header {
+    background: #0b1e36 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color: #ffffff !important;
+  }
+
+  .ticket-header * {
+    color: #ffffff !important;
+  }
+
+  .ticket-notch-left, .ticket-notch-right {
+    display: none !important;
+  }
+
+  .ticket-divider {
+    border-top: 2px dashed #666666 !important;
+  }
+
+  .qr-code-wrapper {
+    box-shadow: none !important;
+    border: 1px solid #cccccc !important;
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <path d="M 80 12 L 142 32 C 142 105 118 135 80 152 C 42 135 18 105 18 32 Z" fill="#b91c1c" stroke="#f59e0b" stroke-width="4"/>
+  <circle cx="80" cy="72" r="38" fill="#18181b" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="78" fill="#f59e0b" font-family="sans-serif" font-weight="900" font-size="24" text-anchor="middle">SC</text>
+  <text x="80" y="128" fill="#ffffff" font-family="sans-serif" font-weight="800" font-size="10" text-anchor="middle" letter-spacing="1">ASANTE KOTOKO</text>
+  <polygon points="80,18 84,28 94,28 86,34 89,44 80,38 71,44 74,34 66,28 76,28" fill="#f59e0b"/>
+</svg>
